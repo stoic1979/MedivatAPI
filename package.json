@@ -1,0 +1,32 @@
+{
+  "name": "medivatapi",
+  "version": "1.0.0",
+  "description": "REST APIs for Medival project",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stoic1979/MedivatAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stoic1979/MedivatAPI/issues"
+  },
+  "homepage": "https://github.com/stoic1979/MedivatAPI#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^4.13.9",
+    "path": "^0.12.7",
+    "winston": "^2.4.0"
+  }
+}
