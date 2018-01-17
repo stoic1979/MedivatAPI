@@ -19,7 +19,8 @@ export const testUser2 = {
 
 export const testPet = {
 	name: 'test-pet',
-	gender: 'MALE'
+	gender: 'MALE',
+	breed: 'test-breed'
 };
 
 export const testVaccination = {

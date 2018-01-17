@@ -7,6 +7,7 @@ const petSchema = new mongoose.Schema({
     	type: String,
     	enum: ['MALE', 'FEMALE'],
     },
+    breed: { type:String },
     created_at: { type: Date, required: true, default: Date.now },
     updated_at: Date
 });

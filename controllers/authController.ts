@@ -1,8 +1,5 @@
 import * as jwt from 'jsonwebtoken';
-import * as nodemailer from 'nodemailer';
-import * as emailTemplates from 'email-templates';
 import * as path from 'path';
-
 import config from '../config/config';
 import User from '../models/user.model';
 import UsersController from './usersController';

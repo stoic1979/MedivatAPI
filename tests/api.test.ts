@@ -13,7 +13,7 @@ import {testUser1} from './mock.data.ts';
 
 class ApiTest extends EventEmitter {
 
-	const BASE_URL = 'localhost:3000/';
+	const BASE_URL = 'http://localhost:3000/';
 
 	constructor() {
 		console.log("[ApiTest] created...");
